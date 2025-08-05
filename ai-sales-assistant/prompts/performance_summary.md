@@ -55,5 +55,6 @@ This divergence in performance suggests an opportunity to rebalance exposure tow
 #### Average Monthly Returns by Asset Class
 ![Average Returns](../charts/avg_returns.png)
 
+
 #### Volatility (Standard Deviation) by Asset Class
 ![Volatility](../charts/volatility.png)
