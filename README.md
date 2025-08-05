@@ -28,7 +28,7 @@ This project showcases advanced prompt engineering:
 - Output constraints (markdown tables, summaries, JSON)
 - Business-ready recommendations
 
-See [`docs/prompt_versions.md`](./docs/prompt_versions.md) for the evolution from basic to professional-grade prompts.
+See [[`docs/prompt_versions.md`](./docs/prompt_versions.md](https://github.com/tyribeiro/ai-sales-assistant/blob/main/ai-sales-assistant/docs/prompt_versions.md)) for the evolution from basic to professional-grade prompts.
 
 ---
 
