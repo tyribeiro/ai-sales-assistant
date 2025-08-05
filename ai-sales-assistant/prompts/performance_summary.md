@@ -27,3 +27,33 @@ Then, provide a 100–150 word slide-ready paragraph summarizing the portfolio�
 
 Return your final output in markdown format.
 ```
+
+# 📊 Output: Performance Summary Prompt
+
+**Prompt:** [`prompts/performance_summary.md`](../prompts/performance_summary.md)
+
+---
+
+### 🔹 Summary of Key Metrics
+
+- **Top Performing Assets**: World Equities, Commodities, Real Estate
+- **Underperformers or Volatile Assets**: Commodities, Real Estate, World Equities
+- **Portfolio Std Dev**: 720.7496
+- **Volatility Threshold**: 1081.1244
+
+---
+
+### 🧠 Executive Summary
+
+The portfolio demonstrates a strong performance from World Equities, Commodities, and Real Estate, which consistently delivered higher average returns over the measured period. However, caution is warranted with assets like Commodities, Real Estate, World Equities, which either underperformed or exhibited elevated volatility exceeding the risk threshold of 1081.12. 
+
+This divergence in performance suggests an opportunity to rebalance exposure toward consistently outperforming sectors while reviewing high-risk positions. Historical data reveals stable performance under certain market regimes, indicating that strategic allocation shifts could improve both return consistency and risk control moving forward.
+---
+
+### 📊 Visuals
+
+#### Average Monthly Returns by Asset Class
+![Average Returns](../charts/avg_returns.png)
+
+#### Volatility (Standard Deviation) by Asset Class
+![Volatility](../charts/volatility.png)
