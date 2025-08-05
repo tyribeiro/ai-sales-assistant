@@ -1,9 +1,11 @@
 # ⚠️ risk_analysis.md
 
-## 🎯 Goal
-Identify volatility trends and risk signals across asset classes, with plain-English insights for client-facing teams.
+## 🎯 Purpose
+To classify and detect volatility trends in asset classes using historical returns, and generate insights tailored for client-facing sales and advisory teams.
 
-## 🧠 Prompt
+---
+
+## 🧠 Final Prompt
 
 **System Prompt:**
 ```
@@ -26,3 +28,32 @@ Then return:
 
 Keep language data-driven but easy to use in slide decks or client meetings.
 ```
+
+---
+
+## 📊 Visuals
+
+### Risk Level Distribution
+[![Risk Levels](../charts/risk_level_distribution.png)](https://github.com/tyribeiro/ai-sales-assistant/blob/defd508dd189294dcb50a73585084d1381fbb798/ai-sales-assistant/risk_level_distribution.png)
+
+### Max Drawdown Month by Asset Class
+[![Drawdowns](../charts/drawdown_months.png)](https://github.com/tyribeiro/ai-sales-assistant/blob/defd508dd189294dcb50a73585084d1381fbb798/ai-sales-assistant/drawdown_months.png)
+
+---
+
+## 📁 Required Input File
+- `Assets_7.csv` (numeric columns only)
+
+---
+
+## 🧠 Why This Prompt Works
+| Element | Description |
+|--------|-------------|
+| **Role Definition** | Ensures consistent tone and output framing |
+| **Statistical Thresholds** | Adds clarity to risk classification |
+| **Structured Output Format** | Returns usable markdown tables |
+| **Client Language** | Matches real advisory conversations |
+
+---
+
+This prompt bridges quantitative analysis with executive communication, delivering outputs that advisors can actually use in meetings and presentations.
