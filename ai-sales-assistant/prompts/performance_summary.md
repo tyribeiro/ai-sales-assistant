@@ -52,9 +52,12 @@ This divergence in performance suggests an opportunity to rebalance exposure tow
 
 ### 📊 Visuals
 
-#### Average Monthly Returns by Asset Class
-ai-sales-assistant/avg_returns.png
+### 📈 Average Monthly Returns by Asset Class
 
+![Average Returns](avg_returns.png)
 
-#### Volatility (Standard Deviation) by Asset Class
-ai-sales-assistant/volatility.png
+---
+
+### ⚠️ Volatility by Asset Class
+
+![Volatility](volatility.png)
