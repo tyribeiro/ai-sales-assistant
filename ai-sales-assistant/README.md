@@ -69,7 +69,3 @@ ai-sales-assistant/
 - Expand dataset ingestion and automation via Zapier or Make.com
 
 ---
-
-## 🧾 License
-
-MIT License
