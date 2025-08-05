@@ -89,23 +89,23 @@ It enables financial professionals to reduce analysis time, improve client commu
 ## 5. Visuals
 
 ### 📈 Average Monthly Returns  
-![Average Returns](../charts/avg_returns.png)
+[![Average Returns](../charts/avg_returns.png)](https://github.com/tyribeiro/ai-sales-assistant/blob/6d2e9c1d60f3780071becc895bee865f72187941/ai-sales-assistant/avg_returns.png)
 
 ---
 
 ### 📉 Volatility by Asset  
-![Volatility](../charts/volatility.png)
+[![Volatility](../charts/volatility.png)](https://github.com/tyribeiro/ai-sales-assistant/blob/6d2e9c1d60f3780071becc895bee865f72187941/ai-sales-assistant/volatility.png)
 
 ---
 
 ### 📊 Risk Level Distribution  
-![Risk Level](../charts/risk_level_distribution.png)
+[![Risk Level](../charts/risk_level_distribution.png)](https://github.com/tyribeiro/ai-sales-assistant/blob/6d2e9c1d60f3780071becc895bee865f72187941/ai-sales-assistant/risk_level_distribution.png)
 
 ---
 
 ### 📉 Max Drawdown Month by Asset  
-![Drawdowns](../charts/drawdown_months.png)
-
+[![Drawdowns](../charts/drawdown_months.png)
+](https://github.com/tyribeiro/ai-sales-assistant/blob/6d2e9c1d60f3780071becc895bee865f72187941/ai-sales-assistant/drawdown_months.png)
 ---
 
 ## 6. Conclusion
