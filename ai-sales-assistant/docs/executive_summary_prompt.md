@@ -53,9 +53,3 @@ This summary will be used for GitHub documentation and internal presentation to 
 | **Pipeline Awareness** | Shows understanding of how this prompt fits into a larger documentation/reporting flow |
 
 ---
-
-## 🧾 Portfolio-Ready Summary
-
-> I engineered a multi-layered prompt that transforms raw data and AI outputs into a fully formatted executive summary document, structured for GitHub documentation and stakeholder presentations.  
->  
-> The prompt uses role assignment, instruction breakdown, visual embedding, and business-aligned tone to generate a professional report. This demonstrates my ability to design OpenAI prompts that are not only informative but deployable in real business workflows.
