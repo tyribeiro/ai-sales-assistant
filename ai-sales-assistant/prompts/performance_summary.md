@@ -54,10 +54,10 @@ This divergence in performance suggests an opportunity to rebalance exposure tow
 
 ### 📈 Average Monthly Returns by Asset Class
 
-![Average Returns](avg_returns.png)
+[![Average Returns](avg_returns.png)](https://github.com/tyribeiro/ai-sales-assistant/blob/75d87b45e0a04928bca60483bcd1fa29f94beeba/ai-sales-assistant/avg_returns.png)
 
 ---
 
 ### ⚠️ Volatility by Asset Class
 
-![Volatility](volatility.png)
+[![Volatility](volatility.png)](https://github.com/tyribeiro/ai-sales-assistant/blob/75d87b45e0a04928bca60483bcd1fa29f94beeba/ai-sales-assistant/volatility.png)
