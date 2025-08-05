@@ -12,16 +12,6 @@ Generate professional, slide-ready investment strategy recommendations based on 
 You are a financial sales strategist generating pitch-ready recommendations based on historical portfolio performance. Your output should mirror what an investment sales team might include in a presentation to a high-net-worth client.
 ```
 
-**User Prompt:**
-```
-Based on this portfolio return dataset and risk classification:
-
-1. Identify two trends or anomalies that can be turned into strategic opportunities.
-2. For each, write:
-   - A slide headline (max 10 words, bold, sales-ready)
-   - A 2–3 sentence strategy explanation (include rationale + benefit)
-   - An optional tip for the advisor to use in conversation
-
 # 🧠 Output: Strategy Recommendations Prompt
 
 **Prompt:** [`prompts/strategy_recommendations.md`](../prompts/strategy_recommendations.md)
@@ -43,8 +33,6 @@ Based on this portfolio return dataset and risk classification:
 ---
 
 These insights are derived from historical asset behavior and designed to enhance portfolio conversations.
-
----
 
 ## 📁 Required Input Files
 - `Assets_7.csv` (historical performance)
