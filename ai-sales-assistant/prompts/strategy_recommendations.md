@@ -22,18 +22,27 @@ Based on this portfolio return dataset and risk classification:
    - A 2–3 sentence strategy explanation (include rationale + benefit)
    - An optional tip for the advisor to use in conversation
 
-Then return your output in this markdown format:
+# 🧠 Output: Strategy Recommendations Prompt
+
+**Prompt:** [`prompts/strategy_recommendations.md`](../prompts/strategy_recommendations.md)
+
+---
 
 ## 🧠 Strategy Recommendation 1
-**Headline:** Bold Slide Title Here  
-**Explanation:** ...  
-**Advisor Tip:** ...
+**Headline:** **Capitalize on Global Equity Strength**  
+**Explanation:** Recent portfolio performance indicates consistent outperformance from World Equities. Allocating a higher weight to global markets may enhance return potential, especially given ongoing strength in international sectors.  
+**Advisor Tip:** Position this as a diversification opportunity that also improves performance against domestic-only portfolios.
+
+---
 
 ## 🧠 Strategy Recommendation 2
-...
+**Headline:** **Reassess Risk in Real Assets**  
+**Explanation:** Although Real Estate and Commodities delivered strong returns, they also showed above-average volatility. Reducing concentrated exposure can help stabilize returns without sacrificing upside.  
+**Advisor Tip:** Use regime data to explain when these assets perform best — and when to hedge.
 
-End with a final note: “These insights are derived from historical asset behavior and designed to enhance portfolio conversations.”
-```
+---
+
+These insights are derived from historical asset behavior and designed to enhance portfolio conversations.
 
 ---
 
