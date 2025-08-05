@@ -1,75 +1,105 @@
 # 🤖 AI Sales Assistant for Investment Firms
 
-This project simulates a real-world AI-powered sales insight generator built for investment firms. It demonstrates expert-level prompt engineering using OpenAI to analyze multi-asset client portfolios and generate executive summaries, risk analysis, and sales strategy recommendations.
+A portfolio-ready project demonstrating expert-level **prompt engineering** and **OpenAI integration** to analyze investment data, detect risk, and generate sales-ready insights and strategies.
 
 ---
 
-## 📌 Overview
+## 📌 Project Purpose
 
-The **AI Sales Assistant** converts portfolio performance data into slide-ready insights for financial advisors and sales teams. It simulates what a prompt engineer or analyst might build at firms like Robert Half to support client engagement and decision-making.
+This assistant simulates how financial analysts and investment sales teams can use AI to:
 
----
-
-## 🔍 Key Features
-
-- Analyze asset-level performance and return trends
-- Detect risk volatility using historical regime data
-- Generate markdown/JSON summaries and slide-friendly strategies
-- Structure prompts using OpenAI best practices (roles, constraints, format control)
+- Summarize asset performance from raw return data
+- Classify risk levels and detect market regime shifts
+- Generate slide-ready sales strategies
+- Support advisors with real-time insights and talking points
 
 ---
 
-## 🧠 Prompt Engineering Highlights
-
-This project showcases advanced prompt engineering:
-
-- Role-based system prompts (`You are a portfolio strategist`)
-- Step-by-step data instructions
-- Output constraints (markdown tables, summaries, JSON)
-- Business-ready recommendations
-
-See [[`docs/prompt_versions.md`](./docs/prompt_versions.md](https://github.com/tyribeiro/ai-sales-assistant/blob/main/ai-sales-assistant/docs/prompt_versions.md)) for the evolution from basic to professional-grade prompts.
-
----
-
-## 🗂️ Project Structure
+## 📁 Folder Structure
 
 ```
 ai-sales-assistant/
-├── data/                   # Portfolio datasets
-├── notebooks/              # Jupyter notebooks for exploration
-├── outputs/                # Text and visual outputs
-├── slides/                 # Exported PowerPoint/slide content
-├── app/                    # OpenAI automation scripts
-├── prompts/                # Prompt templates (.md)
-├── docs/                   # Executive summary & prompt documentation
+├── app/                          # Streamlit dashboard and OpenAI pipeline scripts
+│   └── dashboard.py
+├── charts/                       # Visual charts for embedding in reports
+│   ├── avg_returns.png
+│   ├── volatility.png
+│   ├── risk_level_distribution.png
+│   └── drawdown_months.png
+├── data/                         # Core financial datasets
+│   └── Assets_7.csv
+├── docs/                         # Executive documentation and prompt commentary
+│   ├── executive_summary_report.md
+│   ├── executive_summary_prompt.md
+│   ├── prompt_versions.md
+│   └── README_images/
+├── outputs/                      # Final AI-generated markdown outputs
+│   ├── performance_summary_output.md
+│   ├── risk_summary.csv
+│   └── strategy_recommendations_output.md
+├── prompts/                      # Final system + user prompt instructions
+│   ├── performance_summary.md
+│   ├── risk_analysis.md
+│   └── strategy_recommendations.md
+├── notebooks/                    # (Optional) Jupyter analysis or EDA
+├── README.md                     # 🔹 You are here
 ```
 
 ---
 
-## 📁 Dataset Used
+## 🧠 Prompt Engineering Overview
 
-- `Assets_7.csv`: Simulated portfolio performance (US Equities, Bonds, Real Estate, etc.)
-- `SP500.csv`, `Fama-French`, `Hedge Fund Indices`: For benchmarking and risk modeling
+This project includes 3 high-impact prompts:
 
----
+| Prompt | Purpose |
+|--------|---------|
+| `performance_summary.md` | Analyzes top and underperforming assets, provides markdown summary |
+| `risk_analysis.md` | Classifies risk levels, identifies drawdown periods, supports advisory insights |
+| `strategy_recommendations.md` | Generates sales-friendly investment strategies based on trends |
 
-## 🚀 Example Use Cases
-
-- Assist sales teams with pitch-ready talking points
-- Help analysts summarize performance without manual effort
-- Deliver personalized insights to high-net-worth clients
-
----
-
-## 🧩 Future Work
-
-- Add Streamlit or Gradio frontend for interactive demo
-- Integrate chart exports using Matplotlib or Plotly
-- Expand dataset ingestion and automation via Zapier or Make.com
+See full details in [`docs/prompt_versions.md`](./docs/prompt_versions.md)
 
 ---
 
-## 🧾 License
+## 📈 Visual Samples
 
-MIT License
+| Chart | Description |
+|-------|-------------|
+| ![Avg Returns](charts/avg_returns.png) | Average Monthly Returns |
+| ![Volatility](charts/volatility.png) | Volatility by Asset |
+| ![Risk Level](charts/risk_level_distribution.png) | Risk Level Distribution |
+| ![Drawdowns](charts/drawdown_months.png) | Max Drawdown by Asset |
+
+---
+
+## 🧾 Executive Summary
+
+A full investor-facing summary of the project, prompts, business impact, and visuals is available in:
+
+👉 [`docs/executive_summary_report.md`](./docs/executive_summary_report.md)
+
+---
+
+## 🚀 Run the Dashboard
+
+```bash
+pip install streamlit
+streamlit run app/dashboard.py
+```
+
+---
+
+## 📤 Built With
+
+- OpenAI (GPT-4 prompt engineering)
+- Python (Pandas, Matplotlib, Seaborn)
+- Streamlit (interactive dashboard)
+- Markdown + Data Visualization
+
+---
+
+## 📄 License
+
+MIT License. Use freely with credit.
+
+---
